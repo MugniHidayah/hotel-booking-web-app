@@ -5,10 +5,7 @@ from dash import html
 from dash import dash_table
 from dash.dependencies import Input, Output
 import plotly.express as px 
-import plotly.graph_objects as go
 from app import app
-import folium
-from folium.plugins import HeatMap
 import pandas as pd
 
 booking = pd.read_csv('hotel_bookings.csv')
