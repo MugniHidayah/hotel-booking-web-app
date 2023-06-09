@@ -3,9 +3,6 @@ from dash import dcc
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import pandas as pd
-from google.oauth2 import service_account
-import pandas_gbq as pd1
-import csv
 
 # Connect to main app.py file
 from app import app
